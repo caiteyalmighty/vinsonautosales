@@ -1,29 +1,30 @@
 const cars = [
     {
+        year: 2013,
         make: "Chrysler",
         model: "Town & Country",
-        year: 2013,
-        mileage: 120000,
+        trim: "Touring Edition",
         price: 6000,
-        image: "2013chryslertown&country.jpg",
-        category: "Van"
+        mileage: 125000,
+        image: "2013chryslertown&country.jpg"
     },
     {
-        make: "Nissan",
-        model: "Altima 2.5s",
         year: 2015,
-        mileage: 95000,
+        make: "Nissan",
+        model: "Altima",
+        trim: "2.5s",
         price: 8500,
-        image: "2015nissanaltima2.5s.jpg",
-        category: "Sedan"
+        mileage: 92000,
+        image: "2015nissanaltima2.5s.jpg"
     },
     {
+        year: 2016,
         make: "Buick",
         model: "LaCrosse",
-        year: 2016,
-        mileage: 88000,
-        price: 11000,
-        image: "2016buicklacrosse.jpg",
-        category: "Sedan"
+        trim: "Luxury Sedan",
+        price: 11500,
+        mileage: 78000,
+        image: "2016buicklacrosse.jpg"
     }
-    
+];
+
