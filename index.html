@@ -22,15 +22,15 @@
     <header class="bg-white border-b-8 border-blue-800 py-10 shadow-sm text-center">
         <div class="inline-block border-4 border-blue-800 p-6">
             <h1 class="brand-font text-5xl md:text-7xl vinson-blue uppercase tracking-tight">Vinson Auto Sales</h1>
-            <p class="text-xl mt-2 font-bold text-gray-700 tracking-widest uppercase italic italic tracking-wider">"Faithfully Driven"</p>
+            <p class="text-xl mt-2 font-bold text-gray-700 tracking-widest uppercase italic">"Faithfully Driven"</p>
         </div>
         <p class="mt-4 font-semibold vinson-blue text-lg px-4 uppercase tracking-widest">50 Years of Business and Lifetime of Faith</p>
     </header>
 
     <nav class="vinson-bg-blue text-white sticky top-0 z-50 shadow-md">
-        <div class="max-w-7xl mx-auto px-4 flex justify-center space-x-8 py-4 font-bold uppercase tracking-wide">
+        <div class="max-w-7xl mx-auto px-4 flex justify-center space-x-8 py-4 font-bold uppercase tracking-wide text-sm md:text-base">
             <a href="index.html" class="hover:text-gray-300">Home</a>
-            <a href="inventory.html" class="hover:text-gray-300 underline underline-offset-4">Browse Inventory</a>
+            <a href="inventory.html" class="hover:text-gray-300">Browse Inventory</a>
             <a href="#contact" class="hover:text-gray-300">Contact & Location</a>
         </div>
     </nav>
@@ -40,28 +40,24 @@
         <div class="relative text-center px-4">
             <h2 class="text-4xl md:text-6xl font-black mb-4 drop-shadow-2xl uppercase tracking-tighter italic">Reliable Wheels. Honest Deals.</h2>
             <div class="flex flex-col md:flex-row gap-4 justify-center">
-                <a href="inventory.html" class="bg-blue-800 hover:bg-blue-700 text-white font-bold px-8 py-4 rounded uppercase transition shadow-lg text-lg">Search Hundreds of Cars</a>
+                <a href="inventory.html" class="bg-blue-800 hover:bg-blue-700 text-white font-bold px-8 py-4 rounded uppercase transition shadow-lg text-lg">Search Inventory</a>
                 <a href="tel:2707365700" class="bg-white vinson-blue font-bold px-8 py-4 rounded uppercase transition shadow-lg hover:bg-gray-100 italic text-lg">Call (270) 736-5700</a>
             </div>
         </div>
-    
+    </section>
 
     <section id="contact" class="bg-gray-100 py-16 px-4 border-t border-gray-200">
         <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-start">
-            
             <div class="bg-white p-8 border-2 border-blue-800 shadow-xl">
                 <h3 class="brand-font text-3xl vinson-blue mb-4 uppercase text-center">Get a Call Back</h3>
                 <form name="contact" method="POST" data-netlify="true">
                     <input type="hidden" name="form-name" value="contact" />
                     <label class="block text-xs font-black uppercase text-gray-500 mb-1">Your Name</label>
                     <input type="text" name="name" required class="w-full border border-gray-300 p-3 mb-4 outline-none focus:border-blue-800">
-                    
                     <label class="block text-xs font-black uppercase text-gray-500 mb-1">Phone Number</label>
                     <input type="tel" name="phone" required class="w-full border border-gray-300 p-3 mb-4 outline-none focus:border-blue-800">
-                    
                     <label class="block text-xs font-black uppercase text-gray-500 mb-1">Message</label>
-                    <textarea name="message" placeholder="Which car are you interested in?" class="w-full border border-gray-300 p-3 mb-4 h-24 outline-none focus:border-blue-800"></textarea>
-                    
+                    <textarea name="message" placeholder="What vehicle are you looking for?" class="w-full border border-gray-300 p-3 mb-4 h-24 outline-none focus:border-blue-800"></textarea>
                     <button type="submit" class="w-full vinson-bg-blue text-white font-black py-4 uppercase tracking-widest hover:bg-blue-900 shadow-lg">Submit Request</button>
                 </form>
             </div>
@@ -70,15 +66,13 @@
                 <h3 class="brand-font text-3xl vinson-blue mb-4 uppercase italic">Visit The Lot</h3>
                 <p class="text-2xl font-black vinson-blue">12000 KY-81</p>
                 <p class="text-2xl font-black vinson-blue mb-6 uppercase">Sacramento, KY 42372</p>
-                
                 <div class="space-y-4 mb-8">
                     <p class="text-lg font-bold">Mon - Sat: <span class="vinson-blue">9:00 AM - 6:00 PM</span></p>
                     <p class="text-lg font-bold">Sunday: <span class="text-red-600 uppercase">Closed</span></p>
                 </div>
-
                 <div class="flex flex-col gap-4">
                     <a href="https://www.google.com/maps/dir/?api=1&destination=12000+KY-81+Sacramento+KY+42372" target="_blank" class="vinson-bg-blue text-white py-3 px-6 rounded font-bold uppercase text-center hover:bg-blue-900 transition shadow-md">
-                        Open in Google Maps
+                        Get Directions
                     </a>
                     <a href="tel:2707365700" class="text-3xl font-black vinson-blue underline underline-offset-8 uppercase tracking-tighter italic hover:text-blue-700 decoration-blue-800">
                         (270) 736-5700
@@ -91,7 +85,7 @@
     <footer class="bg-gray-900 text-white py-12 text-center">
         <p class="brand-font text-3xl mb-2 italic">"Faithfully Driven"</p>
         <p class="text-gray-500 max-w-md mx-auto px-4 italic mb-8">50 Years of Business and Lifetime of Faith</p>
-        <p class="text-gray-600 text-xs tracking-widest uppercase">© 2026 Vinson Auto Sales | Sacramento, KY | All Sales Final - Cash Only</p>
+        <p class="text-gray-600 text-xs tracking-widest uppercase">© 2026 Vinson Auto Sales | Sacramento, KY</p>
     </footer>
 
 </body>
